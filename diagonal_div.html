@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diagonal <div></div></title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@900&display=swap" rel="stylesheet">
+</head>
+<style>
+    body{
+        margin: 0;
+        padding: 0;
+    }
+    .section_1{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: auto;
+        height: 584px;
+        background: #DD3E3E;
+        box-shadow: 0px 34px 44px 0px rgba(0, 0, 0, 0.25);
+        margin: auto;
+    }
+
+    .section_2{
+        width: auto;
+        height: 398px;
+        background: #A33535;
+        margin: auto;
+    }
+
+    .div_text{
+        max-width: 444px;
+        max-height: 489px; 
+        margin: 11vh;    
+    }
+
+    .text{
+        transform: rotate(-6.804deg);
+        font-family: 'Inter', sans-serif;
+        font-size: 190px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 160px;
+        color: #fff;
+        text-shadow: -10px 24px 6px rgba(0,0,0,0.25);
+    }
+
+    @media only screen and (max-width: 600px) {
+        .text{
+            font-size: 90px;
+            line-height: 90px;
+        }
+        .div_text{
+        margin: 25vh;    
+        }
+    }
+</style>
+<body>
+    <div class="section_1">
+        <div class="div_text">
+            <h1 class="text">
+                this is a text.
+            </h1>
+        </div>
+    </div>
+    <div class="section_2">
+    </div>
+</body>
+</html>
